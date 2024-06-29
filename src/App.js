@@ -26,8 +26,16 @@ const App = () => {
                             <div className='col-sm'>
                                 <Budget />
                             </div>
+                            // Budget component
+                            <div className='col-sm'>
+                                <Budget />
+                            </div>
                         }        
                         {
+                            //Remaining component
+                            <div className='col-sm'>
+                                <Remaining />
+                            </div>
                             //Remaining component
                             <div className='col-sm'>
                                 <Remaining />
@@ -64,9 +72,11 @@ const App = () => {
                             </div>
                         }        
                     </div>
+                    </div>
             </div>
         </AppProvider>
     );
 };
+
 
 export default App;
